@@ -16,4 +16,8 @@ for i in range(15):
     hashed_string = hashlib.sha256(hashed_string.encode('utf-8')).hexdigest()
     
     print(hashed_string[-5:-1])
-    time.sleep(6)
+    if i == 14:
+        exit
+    else:
+        time.sleep(6)
+    
