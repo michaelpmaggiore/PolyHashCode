@@ -19,4 +19,4 @@ for i in range(14):
     hashed_string = hashlib.sha256(hashed_string.encode('utf-8')).hexdigest()
     
     print(hashed_string[-5:-1])
-    time.sleep(4)
+    time.sleep(6)
