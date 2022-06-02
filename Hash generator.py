@@ -9,7 +9,7 @@ import random
 
 a_string = 'poly'
 
-#Initial hased string to initiate hashing process
+#Initial hashed string to initiate hashing process
 hashed_string = hashlib.sha256(a_string.encode('utf-8')).hexdigest()
 
 #Below for-loop creates 15 data values for randomly generated hashed numbers/chars
